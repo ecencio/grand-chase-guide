@@ -11,6 +11,7 @@ import WorldBoss from './components/WorldBoss'
 import RaidList from './components/RaidList'
 import DualRaidList from './components/DualRaidList'
 import DChasmList from './components/DChasmList'
+import ChaserCalc from './components/ChaserCalc'
 
 //styles
 import GlobalStyles from './styles/GlobalStyles'
@@ -85,25 +86,42 @@ function App() {
             <Link className="Nav" to="/dualraid">
               Dual Raid Teams
             </Link>
+            <Link className="Nav" to="/chaser-calc">
+              Chaser Calculator
+            </Link>
           </nav>
         </StyledNav>
         <Switch>
-          <Route
-            path="/hero/:name"
-            children={
-              <StyledGrid>
-                <NameList />
-                <HeroBuild />
-              </StyledGrid>
-            }
-          />
-          <Route path="/stages" children={<StageList />} />
-          <Route path="/worldboss" children={<WorldBoss />} />
-          <Route path="/aot" children={<AltarOfTime />} />
-          <Route path="/epilogue" children={<RaidList />} />
-          <Route path="/dimensionalchasm" children={<DChasmList />} />
-          <Route path="/dualraid" children={<DualRaidList />} />
-          <Route path="/" children={<HeroList />} />
+          <Route path="/hero/:name">
+            <StyledGrid>
+              <NameList />
+              <HeroBuild />
+            </StyledGrid>
+          </Route>
+          <Route path="/stages">
+            <StageList />
+          </Route>
+          <Route path="/worldboss">
+            <WorldBoss />
+          </Route>
+          <Route path="/aot">
+            <AltarOfTime />
+          </Route>
+          <Route path="/epilogue">
+            <RaidList />
+          </Route>
+          <Route path="/dimensionalchasm">
+            <DChasmList />
+          </Route>
+          <Route path="/dualraid">
+            <DualRaidList />
+          </Route>
+          <Route path="/chaser-calc">
+            <ChaserCalc />
+          </Route>
+          <Route path="/">
+            <HeroList />
+          </Route>
         </Switch>
       </div>
     </Router>
