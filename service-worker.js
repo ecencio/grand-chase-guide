@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/grand-chase-guide/precache-manifest.ed58788cb3fbdacf7a0eea13ca34f468.js"
+  "/grand-chase-guide/precache-manifest.348e07f9e3a83f1a0a7dbf68af4320d6.js"
 );
 
 self.addEventListener('message', (event) => {

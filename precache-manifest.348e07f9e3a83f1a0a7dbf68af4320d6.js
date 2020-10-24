@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e57309d6745c7138728acfc4b00b5dee",
+    "revision": "3ffcfce5f71de16944662ae93c2e4ee5",
     "url": "/grand-chase-guide/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/grand-chase-guide/static/css/2.b550b4be.chunk.css"
   },
   {
-    "revision": "754e27b95950f92e32cc",
+    "revision": "f5b041c55e63f2b4662d",
     "url": "/grand-chase-guide/static/css/main.498d002a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/grand-chase-guide/static/js/2.82c3aa05.chunk.js"
   },
   {
-    "revision": "754e27b95950f92e32cc",
-    "url": "/grand-chase-guide/static/js/main.75f9a2bd.chunk.js"
+    "revision": "f5b041c55e63f2b4662d",
+    "url": "/grand-chase-guide/static/js/main.acbadad7.chunk.js"
   },
   {
     "revision": "6666e28b45acbb47689f",
